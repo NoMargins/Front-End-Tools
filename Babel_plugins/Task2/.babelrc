@@ -1,8 +1,7 @@
 {
     "presets": [
-        "@babel/preset-env", {
-            "targets": "> 10%, last 2 versions"
-        }
+        [
+        "@babel/preset-env", { "targets": "last 2 versions, > 1%" }
+        ]
     ]
-    
 }
