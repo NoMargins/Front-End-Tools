@@ -8,7 +8,7 @@
     "check:scripts": "babel ./src --out-dir=./temp",
     "clean": "rm -rf ./dist",
     "temp:scripts": "npm-run-all clean check:scripts copy:htmlscr",
-    "build:scripts": "webpack ./temp/index.js --mode=production",
+    "build:scripts": "webpack --mode=production",
     "watch:scripts": "webpack ./temp/index.js -d -devtool eval-source-maps -w",
     "run:all": "npm-run-all temp:scripts build:scripts  copy:htmltemp"
   },
