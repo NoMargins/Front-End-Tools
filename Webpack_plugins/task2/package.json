@@ -1,12 +1,12 @@
 {
-	"name": "task3",
+	"name": "task2",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"test": "jest",
 		"test:watch": "jest --watch",
-		"build": "webpack -p",
+		"build": "webpack --mode=production",
 		"watch": "webpack -d --watch --devtool eval-source-maps"
 	},
 	"keywords": [],
