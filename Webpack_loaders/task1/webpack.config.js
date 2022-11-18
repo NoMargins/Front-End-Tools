@@ -6,11 +6,11 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.s[ac]ss$/i,
+				test: /.s?css$/,
 				use: ['style-loader', 'css-loader', 'sass-loader'],
 			},
 			{
-				test: /\.(jpg|png)$/i,
+				test: /.(jpg|png)$/,
 				use: [
 					{
 						loader: 'url-loader',
