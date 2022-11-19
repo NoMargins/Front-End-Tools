@@ -7,7 +7,7 @@
 		"test": "jest",
 		"test:watch": "jest --watch",
 		"build": "webpack -p",
-		"watch": "webpack -d --watch --devtool eval-source-maps"
+		"watch": "webpack --mode=development --watch"
 	},
 	"keywords": [],
 	"author": "",
